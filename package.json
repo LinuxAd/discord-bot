@@ -1,0 +1,16 @@
+{
+  "name": "gillingham-discord-bot",
+  "version": "1.0.0",
+  "description": "Posts Gillingham FC news and 24h match reminders to a Discord channel",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "once": "node src/index.js --once",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  }
+}
